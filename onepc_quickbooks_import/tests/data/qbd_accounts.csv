@@ -1,0 +1,7 @@
+Account,Type,Balance Total,Description,Accnt. #,Tax Line
+Test Petty Cash,Bank,150.00,,9101,
+Test Loan Payable,Long Term Liability,"20,000.00",,9201,
+Test Owner Equity,Equity,,,9301,
+Test Pre-existing Rent,Expense,,,9601,
+Test Sub:Utilities,Expense,,,9602-01,
+Test Estimates,Non-Posting,,,9901,

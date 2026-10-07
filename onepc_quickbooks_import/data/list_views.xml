@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Creates the version-specific list view ("tree" in 17, "list" in 18). -->
+    <function model="onepc.qb.import.log" name="_setup_version_specific_views"/>
+</odoo>

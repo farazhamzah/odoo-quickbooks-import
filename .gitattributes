@@ -1,0 +1,2 @@
+# Keep the sample QuickBooks exports byte-for-byte (BOM, CRLF, Windows-1252).
+*.csv -text

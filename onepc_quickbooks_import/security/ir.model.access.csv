@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_qb_import_wizard_manager,onepc.qb.import.wizard manager,model_onepc_qb_import_wizard,account.group_account_manager,1,1,1,1
+access_qb_import_log_manager,onepc.qb.import.log manager,model_onepc_qb_import_log,account.group_account_manager,1,0,1,1
+access_qb_import_log_line_manager,onepc.qb.import.log.line manager,model_onepc_qb_import_log_line,account.group_account_manager,1,0,1,1

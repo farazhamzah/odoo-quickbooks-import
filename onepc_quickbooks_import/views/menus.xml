@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_qb_import_root"
+              name="QuickBooks Import"
+              parent="account.menu_finance_configuration"
+              groups="account.group_account_manager"
+              sequence="90"/>
+    <menuitem id="menu_qb_import_wizard"
+              name="Import from CSV"
+              parent="menu_qb_import_root"
+              action="action_qb_import_wizard"
+              sequence="10"/>
+    <menuitem id="menu_qb_import_log"
+              name="Import History"
+              parent="menu_qb_import_root"
+              action="action_qb_import_log"
+              sequence="20"/>
+</odoo>

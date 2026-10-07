@@ -1,0 +1,15 @@
+﻿Account List
+Example Test Company
+
+Full name,Type,Detail type,Description,Total balance
+Test Checking,Bank,Checking,Fictional bank account,"5,000.00"
+Test Accounts Receivable,Accounts receivable (A/R),Accounts Receivable (A/R),,0.00
+Test Prepaid Insurance,Other Current Assets,Prepaid Expenses,,
+Test Office Equipment,Fixed Assets,Machinery & Equipment,,
+Test Accounts Payable,Accounts payable (A/P),Accounts Payable (A/P),,
+Test Company Card,Credit Card,Credit Card,,
+Test Sales,Income,Sales of Product Income,,
+Test Cost of Goods Sold,Cost of Goods Sold,Supplies & Materials - COGS,,
+Test Depreciation,Other Expense,Depreciation,,
+Test Rent,Expenses,Rent or Lease of Buildings,,
+Test Unknown Type,Space Station,,,

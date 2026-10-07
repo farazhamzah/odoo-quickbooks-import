@@ -1,0 +1,4 @@
+Vendor,Company,First Name,Last Name,Main Phone,Main Email,Bill from 1,Bill from 2,City,State,Zip
+Test Vendor Café Supplies,Test Vendor Café Supplies,,,555-010-0021,cafe.vendor@example.com,10 Vendor Way,Suite 5,Springfield,CA,90003
+Test Vendor Golf Parts,,Golf,Tester,555-010-0022,golf.vendor@example.com,20 Parts Road,,Testville,NY,10002
+alpha.test vendor alias,,,,,alpha.test@example.com,,,,,

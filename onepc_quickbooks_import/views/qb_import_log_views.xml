@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- The list view is created by data/list_views.xml because Odoo 17
+         calls it "tree" and Odoo 18 calls it "list". -->
+    <record id="qb_import_log_view_form" model="ir.ui.view">
+        <field name="name">onepc.qb.import.log.form</field>
+        <field name="model">onepc.qb.import.log</field>
+        <field name="arch" type="xml">
+            <form string="QuickBooks Import Log" create="false" edit="false">
+                <header>
+                    <button name="action_view_created_records" type="object"
+                            string="View created records" class="btn-primary"
+                            invisible="not created_count"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="import_type"/>
+                            <field name="filename"/>
+                            <field name="create_date" string="Date"/>
+                            <field name="user_id"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                        </group>
+                        <group>
+                            <field name="created_count" string="Created"/>
+                            <field name="skipped_count" string="Skipped"/>
+                            <field name="error_count" string="Errors"/>
+                        </group>
+                    </group>
+                    <field name="details_html" nolabel="1"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="qb_import_log_view_search" model="ir.ui.view">
+        <field name="name">onepc.qb.import.log.search</field>
+        <field name="model">onepc.qb.import.log</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="filename"/>
+                <filter name="with_errors" string="With errors" domain="[('error_count', '>', 0)]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_type" string="Record type" context="{'group_by': 'import_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_qb_import_log" model="ir.actions.act_window">
+        <field name="name">QuickBooks Import History</field>
+        <field name="res_model">onepc.qb.import.log</field>
+        <field name="view_mode">form</field>
+    </record>
+</odoo>

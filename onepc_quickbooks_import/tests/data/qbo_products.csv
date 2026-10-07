@@ -1,0 +1,8 @@
+Product/Service Name,Sales Description,SKU,Type,Sales Price / Rate,Purchase Cost,Purchase Description,Quantity On Hand
+Test Consulting Hour,One hour of fictional consulting,TST-SVC-01,Service,"$1,234.50",$0.00,,
+Test Widget,Fictional widget for tests,TST-INV-01,Inventory,$25.00,$10.50,Widget from test vendor,12
+Test Sticker Pack,,TST-NI-01,Non-inventory,  $3.99 ,,,
+Test Starter Bundle,Bundle of test items,TST-BND-01,Bundle,$40.00,,,
+Test Gadget,Gadget with a bad price,TST-INV-02,Inventory,twelve dollars,$1.00,,
+,,,,,,,
+Test Widget,Same SKU again,TST-INV-01,Inventory,$25.00,$10.50,,

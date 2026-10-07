@@ -1,0 +1,6 @@
+Item,Description,Type,Account,On Hand,Price,Cost
+Test Install Labor,Fictional installation labor,Service,Services Income,,85.00,0.00
+Test Cable 10m,Fictional cable,Inventory Part,Sales,40,"1,050.00",2.00
+Test Shipping Charge,Fictional shipping,Other Charge,Shipping Income,,15.00,
+Test Promo Discount,10% off,Discount,Discounts Given,,-10%,
+Test Sales Tax,State tax,Sales Tax Item,Sales Tax Payable,,7.25%,

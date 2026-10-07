@@ -1,0 +1,8 @@
+﻿Name,Company name,Email,Phone,Street Address,City,State,Zip,Country,Notes
+Test Customer Alpha LLC,Test Customer Alpha LLC,alpha.test@example.com,(555) 010-0001,100 Example Street,Springfield,CA,90001,USA,Fictional test customer
+Test Customer Bravo,,BRAVO.TEST@example.com,555-010-0002,200 Sample Road,Testville,New York,10001,United States,
+,,,,,,,,,
+"Test Customer Charlie, Inc.","Test Customer Charlie, Inc.","charlie.test@example.com, billing.charlie@example.com",555-010-0003,300 Demo Avenue,Faketown,TX,73301,US,
+Test Customer Alpha LLC,Test Customer Alpha LLC,alpha.test@example.com,(555) 010-0001,100 Example Street,Springfield,CA,90001,USA,Duplicate row
+,Test Customer Delta Co,,555-010-0004,,,,,,
+,,,555-010-0005,,,,,,Row without any name
